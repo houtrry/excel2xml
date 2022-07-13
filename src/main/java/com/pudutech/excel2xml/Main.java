@@ -1,18 +1,6 @@
 package com.pudutech.excel2xml;
 
-import com.alibaba.excel.EasyExcel;
-import com.alibaba.excel.context.AnalysisContext;
-import com.alibaba.excel.read.listener.ReadListener;
-import com.alibaba.excel.util.ListUtils;
-
-import java.io.*;
-import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.List;
-
-public class Excel2Xml {
+public class Main {
 
     public static void main(String[] args) {
         String filePath = "F:\\xmls\\翻译文件_19语种.xlsx";
